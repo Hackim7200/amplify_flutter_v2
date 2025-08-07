@@ -13,12 +13,7 @@ class AppShell extends StatefulWidget {
 class _AppShellState extends State<AppShell> {
   int _selectedIndex = 0;
 
-  final List<Widget> _screens = [
-    HomeScreen(),
-    Settings(),
-    JokeScreen(),
-    Settings(),
-  ];
+  final List<Widget> _screens = [HomeScreen(), JokeScreen(), Settings()];
 
   void _onItemTapped(int index) {
     setState(() {

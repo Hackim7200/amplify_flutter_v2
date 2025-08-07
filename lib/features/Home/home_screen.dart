@@ -1,6 +1,5 @@
 import 'package:amplify_authenticator/amplify_authenticator.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -9,10 +8,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        leading: SvgPicture.asset(
-          'assets/logos/orange.svg',
-          height: 32, // specify size
-        ),
+        // leading: SvgPicture.asset(
+        //   'assets/logos/orange.svg',
+        //   height: 32, // specify size
+        // ),
       ),
       body: Center(
         child: Column(
